@@ -1,4 +1,4 @@
-# Claude Builder Club @ Penn × IPD 7990
+
 
 **February 18, 2026 · Tangen Hall · Spring 2026**
 

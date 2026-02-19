@@ -1,0 +1,234 @@
+/* ── Layout ── */
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+  font-family: system-ui, sans-serif;
+  color: #1a1a1a;
+}
+
+/* ── Hero ── */
+.hero {
+  padding: 64px 0 48px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0 0 20px;
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.presenter-line {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #1a1a1a;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.badge:hover {
+  background: #f0f0f0;
+}
+
+/* ── Sections ── */
+.section {
+  padding: 56px 0 0;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin: 0 0 8px;
+}
+
+.section-sub {
+  color: #555;
+  font-size: 15px;
+  margin: 0 0 28px;
+}
+
+/* ── Modes grid ── */
+.modes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.mode-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.mode-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.mode-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.mode-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ── Project cards ── */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.project-number {
+  font-size: 13px;
+  font-weight: 600;
+  color: #999;
+  min-width: 28px;
+  padding-top: 2px;
+}
+
+.project-body {
+  flex: 1;
+}
+
+.project-title {
+  margin: 0 0 4px;
+  font-size: 17px;
+}
+
+.project-tagline {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.toggle-btn {
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  color: #333;
+}
+.toggle-btn:hover {
+  background: #f5f5f5;
+}
+
+/* ── Project detail rows ── */
+.project-details {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mode-row {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  align-items: flex-start;
+}
+
+.mode-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+.mode-tag.code    { background: #e8f4ff; color: #0057b7; }
+.mode-tag.augment { background: #f0e8ff; color: #6b21a8; }
+.mode-tag.automate{ background: #e8fff0; color: #166534; }
+
+.insight-box {
+  background: #fafafa;
+  border-left: 3px solid #ccc;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.insight-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+/* ── About ── */
+.about-section p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+/* ── Footer ── */
+.footer {
+  margin-top: 80px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.9rem; }
+  .modes-grid { grid-template-columns: 1fr; }
+}
