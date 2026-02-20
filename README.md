@@ -1,12 +1,14 @@
+# Claude Code for Integrated Product Development
+### IPD 7990: Integrated Product Design
+**Guest Workshop for Prof. Karl Ulrich · February 18, 2026 · Tangen Hall**
 
+---
 
-**February 18, 2026 · Tangen Hall · Spring 2026**
+## Overview
 
 A live workshop session exploring how IPD students can use Claude and Claude Code to accelerate every stage of their final projects — from user research synthesis to working prototypes.
 
 Presented by **Albert Opher** — M&T '25, Anthropic Campus Ambassador, Founder of the Penn Claude Builder Club.
-
----
 
 ## What This Session Covers
 
@@ -19,6 +21,16 @@ We look at three modes of working with Claude, mapped directly to your IPD proje
 | **Agentic (Claude Code)** | Claude as a builder — reads your codebase, writes files, runs commands, ships working prototypes |
 
 The live demo uses Claude Code to ideate on and prototype features across all 8 IPD final projects in real time.
+
+## Screenshots
+
+### Demo Overview
+![Demo Overview](title.png)
+*Live workshop demonstration of Claude Code building prototypes for IPD final projects*
+
+### Project Prototypes Built
+![Project Demos](projects.png)
+*Working prototypes for all 8 IPD final projects created during the session*
 
 ---
 
